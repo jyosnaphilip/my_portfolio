@@ -4,3 +4,42 @@
     font-size :15px;
     color:#A40022; 
 }
+.timeline{
+    content: none;
+    border-color: grey;
+    background-color: white;
+    width:2px;
+}
+
+.hoveffect:hover{
+    color:white;
+    background-color:#A40022 ;
+    border-radius: 5px;
+}
+.hoveffect:active, .hoveffect:focus{
+    color:white;
+    background-color:#A40022 ;
+    border-radius: 5px;
+
+}
+
+.msg{
+    text-align: center;
+    padding:5px;
+    margin-left: 200px;
+    border-color: #A40022;
+    border-radius: 2px;
+    background-color: #A40022;
+    color:antiquewhite;
+}
+.msg:hover{
+    background-color: blanchedalmond;
+    color:#A40022;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: red !important;
+    background-color: white;
+}
+    
