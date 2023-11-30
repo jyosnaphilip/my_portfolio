@@ -1,5 +1,52 @@
 
+.header{
+    background-color:#301934;
+    height:90%;
+}
+#banner{
+    background-color:#301934;
+    position:sticky;
+    transition: 0.2s;
+    
+    margin:auto;
 
+     /* for collapsing header */
+}
+#name_pic{
+    height:200px;
+    width:300px;
+    overflow: hidden;
+    margin-top: 5px;
+    
+    
+   
+}
+#pic{
+    justify-self: center;
+    align-self: center;
+    width:280px;
+    height:280px;
+    border-radius: 50%;
+    margin-right:-2px;
+}
+.resume{
+    background-color:#301934;
+}
+.resume:hover{
+    background-color: #702670;
+}
+
+body,.txt {
+    font-family: Lora, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+h4,.h {
+    font-family: Ubuntu, sans-serif;
+    font-size: 46px;
+}
 .timeline {
     content: none;
     border-color: grey;
@@ -11,26 +58,25 @@
     font-family: Ubuntu, sans-serif;
     font-weight: bold;
     font-size: 15px;
-    color: #A40022;
+    color:#301934
 }
 
 .hoveffect:hover {
     color: white;
-    background-color: #A40022;
+    background-color:#301934; 
     border-radius: 10px;
 }
 
 .hoveffect:active,
 .hoveffect:focus {
     color: white;
-    background-color: #A40022;
+    background-color:#301934;
     border-radius: 10px;
 
 }
-
 .navbar a.nav-link.active {
-    background-color: #A40022;
-    color: antiquewhite !important;
+    background-color:#301934;
+    color: white !important;
 }
 /* navbar design end */
 
@@ -38,7 +84,6 @@
 
 .msg {
     text-align: center;
-    padding: 5px;
     margin-left: 200px;
     border-color: #A40022;
     border-radius: 10px;
@@ -93,13 +138,13 @@
     padding: 16px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 20px;
-    border-radius: 50%;
+    font-size: 18px;
+    border-radius: 100%;
     text-shadow:#000;
     
 }
 .icon-bar a:hover {
-    background-color: #000;
+    background-color:#702670;
 
 }
 /* side bar end */
