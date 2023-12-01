@@ -14,6 +14,11 @@ function validateForm() {
     tag.removeAttribute("style");
 }
 
+function scroll_header(){
+  window.scrollTo(0,550);
+}
+
+
 
 
 // // When the user scrolls down 50px from the top of the document, resize the header's font size

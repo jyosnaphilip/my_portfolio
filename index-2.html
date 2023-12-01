@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- start style sheet -->
@@ -17,52 +21,58 @@
 <body>
     <!-- name header --> 
     <div class="container-fluid">
-        <div class="row header px-5" style="align-items:center;">
-            <div class="col-2 ">
-
-            </div>
-            <div class="col-4 " style="align-items: center;justify-content: center;" >
-                <img src="jo_pic_1.png"  id="pic">
+        <div class="row header" style="align-items:center;">
+            
+            <div class="col-sm-4 offset-2" style="align-items: center;justify-content: center;" >
+                <img src="jyosna_photo.png" class="rounded-circle img-thumbnail"  id="pic">
             </div>
 
-            <div class="col-6">
-                <div class="container-fluid text-center px-5 py-3" id="banner">
-                    <img src="Jyosna Philip (1).png"  href="jyosna" id="name_pic">
-                    <div id="designatn">
-                        <p class="text-light my-5 fw-bold h">Data Science Aspirant</p>
-                        <a href="#" class="btn text-light btn-outline-secondary btn-lg border txt resume">Download Resume</a>
+            <div class="col-sm-6">
+                <div class="container-fluid text-center px-5" id="banner">
+                    <img src="name_photo.png"  href="jyosna" id="name_pic">
+                    <div id="designatn mt-3">
+                        <p class="text-light fw-bold h">Data Science Aspirant</p>
+                        <a href="#" class="btn text-light btn-outline-secondary btn-lg border resume rounded-pill" style="font-family: Ubuntu, sans-serif; font-size:medium;">
+                            Download Resume</a>
                         <br/>
                         <br/>
                         <br/>
                         <br>
+                        <br>
 
-                        
                     </div>
                 </div>  
             </div>
-        </div>  
-        <div class="container-fluid text-center" style="background-color:#301934;">
-            <i class="fa-solid fa-angles-down fa-beat" style="color:white;"></i>
         </div> 
+        <div class="row text-center mt-0" style="background-color:#301934; ">
+            <div class="col-sm-12 btn btn-outline" onclick="scroll_header()" style="background-color:#301934;">
+                <i class="fa-solid fa-angles-down fa-beat" style="color:white;"></i>
+            </div>
+        </div>
+       
     </div>
-    <div class="container-fluid text-center px-5 py-3" id="sticky" style="background-color:#301934; position:sticky;top:0px">
-        <img src="Jyosna Philip (1).png"  href="jyosna" style="width:180px;height: 80px;">
+    <div class="container-fluid text-center px-5 py-1 position-sticky" id="sticky" style="background-color:#301934;top:0px">
+        <img src="name_photo.png"  href="jyosna" style="width:180px;height: 80px;">
     </div>
-    <div class="container-fluid text-center px-5 py-3" id="sticky" style="background-color:white; position:sticky;top: 6rem;;">      <!-- navbar start -->
-        <nav id="navbar" class="navbar navbar-expand-sm bg-light navbar-light">
-            <div class=".container-fluid px-5">
+    <!-- navbar begins  -->
+    <div class="container-fluid shadow text-center px-3 py-0 position-sticky " style="top: 5rem;background-color: #c3b3e3;">      <!-- navbar start -->
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-light" style="background-color: #c3b3e3;">
+            <div class=".container-fluid px-3">
                 <ul class="nav nav-pills">
-                    <li class="nav-item nav-style px-5">
-                        <a class="nav-link nav-style px-5 hoveffect" href="Aboutme">About me</a>
+                    <li class="nav-item nav-style px-3">
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Aboutme">About me</a>
                     </li>
-                    <li class="nav-item nav-style px-5">
-                        <a class="nav-link nav-style px-5 hoveffect" href="Education">Education</a>
+                    <li class="nav-item nav-style px-3">
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Education">Education</a>
                     </li>
-                    <li class="nav-item nav-style px-5">
-                        <a class="nav-link nav-style px-5 hoveffect" href="#scrollspyHeading3">Link</a>
+                    <li class="nav-item nav-style px-3">
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Skills">Skills</a>
                     </li>
-                    <li class="nav-item nav-style px-5 ">
-                        <a class="nav-link nav-style px-5 hoveffect" href="#scrollspyHeading4">Disabled</a>
+                    <li class="nav-item nav-style px-3">
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item nav-style px-3 ">
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#scrollspyHeading4">Disabled</a>
                     </li>
                 </ul>
             </div>
@@ -72,69 +82,138 @@
     <!-- end name header -->
     <!-- social sidebar -->
     <div class="icon-bar p-1">
-        <a href="www.linkedin.com/in/jyosna-philip"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
-        <a href="https://github.com/jyosnaphilip" ><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
-        <a href="mailto:jyosnaphilip@gmail.com" ><i class="fa fa-envelope"></i></a>
-        <a href="jyosna.philip"><i class="fa-brands fa-stack-overflow" style="color: #ffffff;"></i></a>
-        <a href="n/jyosna-philip-5b3567289"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+        <a href="www.linkedin.com/in/jyosna-philip" class="rounded-circle"><i class="fa-brands fa-linkedin-in " style="color: #ffffff;"></i>
+        <a href="https://github.com/jyosnaphilip" class="rounded-circle"><i class="fa-brands fa-github " style="color: #ffffff;"></i></a>
+        <a href="mailto:jyosnaphilip@gmail.com" class="rounded-circle"><i class="fa fa-envelope "></i></a>
+        <a href="jyosna.philip" class="rounded-circle"><i class="fa-brands fa-stack-overflow " style="color: #ffffff;"></i></a>
+        <a href="n/jyosna-philip-5b3567289" class="rounded-circle"><i class="fa-brands fa-instagram " style="color: #ffffff;"></i></a>
     </div>
     <!-- end social sidebar -->
 
     <!-- start scrollspy settings -->
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-        data-bs-smooth-scroll="true" class="scrollspy-example p-3 main;" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example p-3;" tabindex="0">
         <!-- start of bootstrap container -->
         
 
-        <div class=" text-center">
+        <div class="container-fluid text-center mt-0" style="background-color:#c3b3e3;">
         <!-- first row start -->
-            <div style="background-color: #DD9FAC;" class="shadow-lg  row container-1 ">
+            <div  class="row shadow-sm" style="background-color:#c1a9df;">
 
-                <div class="col-sm-1 mx-0"></div>
-
-                <div class="col-sm-7 p-4 mx-0">
-                    <h4 id="Aboutme" class="py-3 fw-bold">Hi!!</h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div class="col-sm-7 p-4 offset-sm-1 text-light fw-light">
+                    <h4 id="Aboutme" class="py-3 fw-bold">About Me</h4>
+                    <p>Hello there! I'm a Data Science enthusiast currently pursuing my studies at Christ University, Lavasa, Pune.
+                         Originating from Kerala, my academic journey has led me to different parts of the world, 
+                         shaping a blend of cultural richness and a keen analytical mindset.</p>
+                    <p>I find joy in navigating the complexities of logic at the intersection of mathematics and analytics. 
+                        My focus revolves around programming and any technology involving data,
+                        showcased by the development of this portfolio as part of my Full-stack Web Development Course. 
+                        While algorithms and datasets drive my professional pursuits, I also relish the simple joys of life.
+                        You can find me snuggled up up with a good book, when I'm not buried in datasets.</p> 
+                    <p>I'm actively seeking my first opportunity to apply the skills I've developed in my daily
+                         learning journey. I'm ready to contribute to projects that harness data for meaningful outcomes.
+                        In my pursuit of excellence in data science, I champion collaboration, innovation, and adaptability.
+                         If you're looking for a professional who seamlessly blends technical skills with a steadfast passion
+                        for learning, or even someone to discuss anything data science, I'm excited to connect and explore 
+                        potential opportunities together.</p>
+                               
                 </div>
-                <div class="col-sm-4 py-0 mx-0">
-                    <img src="WhatsApp Image 2023-10-25 at 7.07.57 PM.jpeg"
-                    class="img-thumbnail rounded mx-auto d-block thumbnail-border-color:yellow" height="250px"
-                    width="180px">
+                <div class="col-sm-3 py-4 mx-0" style="align-items: center;justify-content: center;">
+                    <img src="jyosna_photo.png" class="rounded img-thumbnail"  id="pic">
                 </div>
             </div>
-            <hr />
         <!-- end of first row -->
         <!-- start of second row -->
-            <div style="background-color: #DD9FAC;" class="row shadow-lg content-1 gy-1">
 
-                <h4 id="scrollspyHeading3" class="py-3 fw-bold">Education</h4>
+            <div style="background-color: #c3b3e3;" class="row">
+
+
+                <h4 id="Education" class="py-5 fw-bold">Education</h4>
+                <div class="row">
+                    <div class="col-sm offset-1 edu edu-one">
+                        <span class="badge rounded-pill yr">2018</span>
+                        <p></p>
+                    </div>
+                    <div class="col-sm edu edu-two">
+                        <span class="badge rounded-pill yr">2020</span>
+                        <p></p>
+                    </div>
+                    <div class="col-sm edu edu-three">
+                        <span class="badge rounded-pill yr">2023</span>
+                        <p></p>
+                    </div>
+                </div> 
+   
+
+        <!-- start of third row -->
+
+            <div style="background-color: #c3b3e3;" class="row shadow-sm content-1 gy-1">
+
+                <h4 id="Skills" class="py-3 fw-bold">My skills</h4>
             <!-- first skills column -->
-                <div class="col-sm-1 ">
-                    
-                </div>
-                <div class="col-sm-3 border">
-                    school
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <p class="py-1">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="py-1">Microsoft Excel</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="py-1">R Programming</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="p-1">C++</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="p-1">C</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                 </div>
            
-                <div class="col-sm-1 "></div>
-                <div class="col-sm-3 border">
-                    ug
+            <!-- end of first skills column -->
+            <!-- start second skills column -->
+                <div class="col-sm-5">
+                    <p class="py-1">HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="py-1">CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="py-1">JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div></br>
+                    <p class="py-1">Django</p>
+                    <div class="progress">
+                        <div class="progress-bar skill" role="progressbar" style="width: 60%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">communication</span>
+                        <span class="material-symbols-outlined">
+                                psychology
+                        </span>
+                        <span class="material-symbols-outlined">
+                            emoji_objects
+                        </span>
+                        <span class="material-symbols-outlined">
+                            monitoring
+                        </span>
+                    </div>
+
                 </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 border">
-                    school
-                </div>
-                
-            </div>
             <!-- end second skills column -->
-        </div>
-        <div style="background-color: #DD9FAC;" class="row shadow-lg content-1 ">
-            <h4 id="scrollspyHeading2" style="text-align: right;">Second heading</h4>
+            </div>
+        <!-- third row ends -->
+
+        <div style="background-color: #c3b3e3;" class="row shadow-sm content-1 ">
+            <h4 id="Projects" style="text-align: right;">Projects</h4>
             <div class="col-sm-1 mx-0"></div>
             <div class="col-sm-4">
                 <img src="">
@@ -142,85 +221,42 @@
             </div>
             <div class="col-sm-7 mx-0">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non
-                proident, sunt in culpa qui of
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non
+            proident, sunt in culpa qui of
             </div>
-        </div>
-        <!-- end of second row -->
-        <!-- start of third row -->
-
-        <div style="background-color: #DD9FAC;" class="row shadow-lg content-1 gy-1">
-
-            <h4 id="scrollspyHeading3" class="py-3 fw-bold">My skills</h4>
-            <!-- first skills column -->
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5">
-                <p>Python</p>
-                <div class="container">
-                    <div class="skills py">80%</div>
-                </div>
-                <p>Microsoft Excel</p>
-                <div class="container">
-                    <div class="skills xls">80%</div>
-                </div>
-                <p>R Programming</p>
-                <div class="container">
-                    <div class="skills rp">55%</div>
-                </div>
-            </div>
-            <!-- end of first skills column -->
-            <!-- start second skills column -->
-            <div class="col-sm-5">
-                <p>HTML</p>
-                <div class="container">
-                    <div class="skills html">60%</div>
-                </div>
-                <p>CSS</p>
-                <div class="container">
-                    <div class="skills css">60%</div>
-                </div>
-                <p>JavaScript</p>
-                <div class="container">
-                    <div class="skills js">60%</div>
-                </div>
-            </div>
-            <!-- end second skills column -->
-        </div>
-        <!-- third row ends -->
-        <div class="col timeline">
-        </div>
-    </div>
-
-
-    <div style="background-color: #DD9FAC;" class="row shadow-lg content-1 gy-1">
-
-        <h4 id="Education" class="py-3 fw-bold">Education</h4>
-    <!-- first skills column -->
-        <div class="col-sm-1 ">
-            
-        </div>
-        <div class="col-sm-3 border">
-            school
-        </div>
-   
-        <div class="col-sm-1 "></div>
-        <div class="col-sm-3 border">
-            ug
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-3 border">
-            school
         </div>
         
-    </div>
 
-    <button type="button" class="msg p-5" data-bs-toggle="modal" data-bs-target="#Modal_box" data-bs-whatever="@mdo">Send
+
+            <div style="background-color: #c3b3e3;" class="row shadow-sm content-1 gy-1">
+
+                <h4 id="Education" class="py-3 fw-bold">Education</h4>
+    <!-- first skills column -->
+                <div class="col-sm-1 ">
+            
+                </div>
+                <div class="col-sm-3 border">
+                school
+                </div>
+   
+                <div class="col-sm-1 "></div>
+                <div class="col-sm-3 border">
+                ug
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 border">
+                school
+                </div>
+        
+            </div>
+
+    <button type="button" class="msg p-5 rounded-pill" data-bs-toggle="modal" data-bs-target="#Modal_box" data-bs-whatever="@mdo">Send
         me a message</button>
     <!-- message modal start-->
     <div class="modal fade" id="Modal_box" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -251,7 +287,7 @@
                     <!-- form end -->
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" id="submit" class="btn p-5 msg" style="background-color: #A40022"> Send
+                    <button type="submit" id="submit" class="btn p-5 msg rounded-pill" style="background-color: #A40022"> Send
                         Message</button>
                 </div>
             </div>
