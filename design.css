@@ -21,9 +21,9 @@
 #pic{
     justify-self: center;
     align-self: center;
-    width:280px;
-    height:280px;
-    margin-right:-2px;
+    width:60%;
+    height:60%;
+   
 }
 .resume{
     background-color:#301934;
@@ -102,21 +102,36 @@ h4,.h {
 
 .msg {
     text-align: center;
+    
     margin-left: 200px;
-    border-color: #A40022;
-    background-color: #A40022;
-    color: antiquewhite;
+    border-color:#301934;
+    background-color:#c3b3e3;
+    color:#301934;
+    font-weight: bold;
+    
+}
+
+.submit{
+    background-color:#702670;
+    transition:all 10s linear;
+
+}
+.submit_btn:hover{
+    background-color:#c3b3e3;
+    color:#702670;
+    transition:all 10s ease-in;
 }
 
 .msg:hover {
-    background-color: blanchedalmond;
-    color: #A40022;
+    background-color:#702670;
+    color: #fff;
+    font-weight: bold;
 
 }
 .tick{
     color:white;
     text-shadow:white;
-    background-color:#A40022 !important;
+    background-color:#702670 !important;
     transition: all 0.3s ease;
 
 }
@@ -178,11 +193,6 @@ h4,.h {
 }
 
 
-.html {width: 65%;} /* Green */
-.css {width: 65%;} /* Blue */
-.js {width: 65%;} /* Red */
-.py {width: 80%;} /* Dark Grey */
-.xls {width: 80%;} /* Dark Grey */
-.rp {width: 55%;} /* Dark Grey */
+
 
 /* skills design ends */

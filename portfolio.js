@@ -18,6 +18,10 @@ function scroll_header(){
   window.scrollTo(0,550);
 }
 
+function tick_mark(){
+  document.getElementById("submit").innerHTML="<i class='fa-solid fa-circle-check' style='color: #9bfda2;'></i>";
+}
+
 
 
 
