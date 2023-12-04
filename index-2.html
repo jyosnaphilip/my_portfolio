@@ -23,7 +23,7 @@
 
 <body>
     
-    <div class="container-fluid m-auto d-flex" style="width:100%">
+    <div class="container-fluid m-auto d-flex" id="home" style="width:100%">
         <!-- home page -->
         <div class="row header" style="align-items:center;">
 <!-- photo -->
@@ -63,7 +63,8 @@
 <!-- name header -->
     <div class="container-fluid text-center px-5 py-1 position-sticky" id="sticky"
         style="background-color:#301934;top:0px;z-index: 1;">
-        <img src="name_photo.png" href="jyosna" style="width:180px;height: 80px;">
+        <a href="#"><img src="name_photo.png" href="jyosna" style="width:180px;height: 80px;"></a>
+        
     </div>
     <!-- navbar begins  -->
     <div class="container-fluid shadow text-center px-3 py-0 position-sticky "
@@ -117,10 +118,10 @@
 
         <div class="container-fluid text-center mt-0" style="background-color:#c3b3e3;">
             <!-- first row start -->
-            <div class="row shadow-sm" style="background-color:#c1a9df;">
+            <div class="row shadow-sm" style="background-color:#c3b3e3;">
 
-                <div class="col-sm-7 p-4 offset-sm-1 text-light fw-light">
-                    <h4 id="Aboutme" class="py-5  fw-bold">About Me</h4>
+                <div class="col-sm-7 p-4 offset-sm-1 text-light fw-light" id="Aboutme">
+                    <h4  class="py-5  fw-bold">About Me</h4>
                     <div class="t-font">
                         <p>Hello there! I'm a Data Science enthusiast currently pursuing my studies at Christ University,
                         Lavasa, Pune.
@@ -293,7 +294,7 @@
                     </div>
                 </div>
                 <div class="col w-50">
-                    <div class="card align-items-center " style="background-color:#c1a9df;width:90%;height:100%">
+                    <div class="card align-items-center " style="background-color:#c3b3e3;width:90%;height:100%">
                         <img src="https://cdn.qwiklabs.com/owBxAmsLvhS0PMkf43htIcLhA1Xc4Y81yeTharot8vk%3D" class="card-img-top rounded" style="width:50%;height:60%" alt="Google Cloud Badge-1">
                         <div class="card-body w-75">
                           <h5 class="card-title align-center">
@@ -303,7 +304,7 @@
                     </div>
                 </div>
                 <div class="col w-50">
-                    <div class="card align-items-center " style="background-color:#c1a9df;width:90%;height:100%">
+                    <div class="card align-items-center " style="background-color:#c3b3e3;width:90%;height:100%">
                         <img src="https://cdn.qwiklabs.com/Tf3g6%2FADdDlj8rVzF5566QMe1GgJT8rlt%2BPKYMghTTM%3D" class="card-img-top" style="width:50%;height: 50%" alt="Google Cloud Badge-2">
                         <div class="card-body">
                           <h5 class="card-title"></h5>
@@ -374,7 +375,7 @@
     <!-- message modal end -->
     <!-- footer -->
     <div class="container-fluid">
-        <div class="row" style="background-color: #301934;">
+        <div class="row" id="Contact" style="background-color: #301934;">
             <div class="col-sm-5 pt-4 pe-4">
                 <button type="button" class="msg p-2 rounded-pill mt-5 t-font" data-bs-toggle="modal" data-bs-target="#Modal_box"
             data-bs-whatever="@mdo" style="background-color: #c3b3e3;">Send a message</button>
@@ -387,9 +388,10 @@
                             style="color: #ffffff;"></i> Check out my GitHub profile</a><br>
                 <a href="mailto:jyosnaphilip@gmail.com" class="rounded-circle link-light link-underline-opacity-0"><i class="fa fa-envelope "></i> Send me a mail</a><br>
                 <a href="jyosna.philip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-stack-overflow "
-                            style="color: #ffffff;"></i> Check out my stackoverflow account</a><br>
+                            style="color: #ffffff;"></i>Check out my stackoverflow account</a><br>
                 <a href="https://www.instagram.com/jyosna.philip/" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-instagram "
                             style="color: #ffffff;"></i> Follow me on instagram</a><br>
+                
 
             </div>
             
