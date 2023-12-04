@@ -22,10 +22,11 @@
 <!-- end head -->
 
 <body>
-    <!-- name header -->
-    <div class="container-fluid m-auto d-flex">
-        <div class="row header " style="align-items:center;">
-
+    
+    <div class="container-fluid m-auto d-flex" style="width:100%">
+        <!-- home page -->
+        <div class="row header" style="align-items:center;">
+<!-- photo -->
             <div class="col-sm-5 offset-sm-1 " style="align-items: center;justify-content: center;">
                 <img src="jyosna_photo.png" class="rounded-circle img-thumbnail offset-2" id="pic">
             </div>
@@ -40,15 +41,18 @@
                             Download Resume</a>
                         
                         </br>
-                        </br >
                         </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>   
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-      
+      <!-- arrows -->
     <div class="container-sm-fluid text-center" style="background-color:#301934; ">
         <div class="btn btn-outline" onclick="scroll_header()" style="background-color:#301934;">
             <i class="fa-solid fa-angles-down fa-beat" style="color:white;"></i>
@@ -56,16 +60,16 @@
     </div>
 
     
-
+<!-- name header -->
     <div class="container-fluid text-center px-5 py-1 position-sticky" id="sticky"
-        style="background-color:#301934;top:0px">
+        style="background-color:#301934;top:0px;z-index: 1;">
         <img src="name_photo.png" href="jyosna" style="width:180px;height: 80px;">
     </div>
     <!-- navbar begins  -->
     <div class="container-fluid shadow text-center px-3 py-0 position-sticky "
-        style="top: 5rem;background-color: #c3b3e3;"> <!-- navbar start -->
-        <nav id="navbar" class="navbar navbar-expand-sm navbar-light" style="background-color: #c3b3e3;">
-            <div class=".container-fluid px-3">
+        style="top: 5rem;background-color: #c3b3e3;z-index: 1;"> <!-- navbar start -->
+        <nav id="navbar" class="navbar justify-content-evenly  navbar-expand-sm navbar-light" style="background-color: #c3b3e3;">
+            <div class=".container-fluid  px-3">
                 <ul class="nav nav-pills">
                     <li class="nav-item nav-style px-3">
                         <a class="nav-link nav-style px-3 hoveffect rounded" href="#Aboutme">About me</a>
@@ -77,10 +81,13 @@
                         <a class="nav-link nav-style px-3 hoveffect rounded" href="#Skills">Skills</a>
                     </li>
                     <li class="nav-item nav-style px-3">
-                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Projects">Projects</a>
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Projects">Projects & Certifications</a>
                     </li>
                     <li class="nav-item nav-style px-3 ">
-                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#scrollspyHeading4">Disabled</a>
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Blog">Blog</a>
+                    </li>
+                    <li class="nav-item nav-style px-3 ">
+                        <a class="nav-link nav-style px-3 hoveffect rounded" href="#Contact">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -92,12 +99,12 @@
     <div class="icon-bar p-1">
         <a href="www.linkedin.com/in/jyosna-philip" class="rounded-circle"><i class="fa-brands fa-linkedin-in "
                 style="color: #ffffff;"></i>
-            <a href="https://github.com/jyosnaphilip" class="rounded-circle"><i class="fa-brands fa-github "
+        <a href="https://github.com/jyosnaphilip" class="rounded-circle"><i class="fa-brands fa-github "
                     style="color: #ffffff;"></i></a>
-            <a href="mailto:jyosnaphilip@gmail.com" class="rounded-circle"><i class="fa fa-envelope "></i></a>
-            <a href="jyosna.philip" class="rounded-circle"><i class="fa-brands fa-stack-overflow "
+        <a href="mailto:jyosnaphilip@gmail.com" class="rounded-circle"><i class="fa fa-envelope "></i></a>
+        <a href="jyosna.philip" class="rounded-circle"><i class="fa-brands fa-stack-overflow "
                     style="color: #ffffff;"></i></a>
-            <a href="n/jyosna-philip-5b3567289" class="rounded-circle"><i class="fa-brands fa-instagram "
+        <a href="https://www.instagram.com/jyosna.philip/" class="rounded-circle"><i class="fa-brands fa-instagram "
                     style="color: #ffffff;"></i></a>
     </div>
     <!-- end social sidebar -->
@@ -113,27 +120,28 @@
             <div class="row shadow-sm" style="background-color:#c1a9df;">
 
                 <div class="col-sm-7 p-4 offset-sm-1 text-light fw-light">
-                    <h4 id="Aboutme" class="py-3 fw-bold">About Me</h4>
-                    <p>Hello there! I'm a Data Science enthusiast currently pursuing my studies at Christ University,
+                    <h4 id="Aboutme" class="py-5  fw-bold">About Me</h4>
+                    <div class="t-font">
+                        <p>Hello there! I'm a Data Science enthusiast currently pursuing my studies at Christ University,
                         Lavasa, Pune.
                         Originating from Kerala, my academic journey has led me to different parts of the world,
-                        shaping a blend of cultural richness and a keen analytical mindset.</p>
-                    <p>I find joy in navigating the complexities of logic at the intersection of mathematics and
+                        shaping my diverse perspectives and approach to life.</p>
+                        <p>I find joy in navigating the complexities of logic at the intersection of mathematics and
                         analytics.
                         My focus revolves around programming and any technology involving data,
                         showcased by the development of this portfolio as part of my Full-stack Web Development Course.
                         While algorithms and datasets drive my professional pursuits, I also relish the simple joys of
                         life.
                         You can find me snuggled up up with a good book, when I'm not buried in datasets.</p>
-                    <p>I'm actively seeking my first opportunity to apply the skills I've developed in my daily
-                        learning journey. I'm ready to contribute to projects that harness data for meaningful outcomes.
-                        In my pursuit of excellence in data science, I champion collaboration, innovation, and
-                        adaptability.
+                        <p>I'm actively seeking my first opportunity to apply the skills I've developed as well as enhancing them.
+                         I'm ready to contribute to projects that harness data for meaningful outcomes and make meaningful strides in this field
+
                         If you're looking for a professional who seamlessly blends technical skills with a steadfast
                         passion
                         for learning, or even someone to discuss anything data science, I'm excited to connect and
                         explore
                         potential opportunities together.</p>
+                    </div>
 
                 </div>
                 <div class="col-sm-3 py-4 mx-0" style="align-items: center;justify-content: center;">
@@ -143,22 +151,44 @@
             <!-- end of first row -->
             <!-- start of second row -->
 
-            <div style="background-color: #c3b3e3;" class="row">
+            <div style="background-color: #c3b3e3;" class="row shadow-sm">
 
 
-                <h4 id="Education" class="py-5 fw-bold">Education</h4>
-                <div class="row">
-                    <div class="col-sm offset-1 edu edu-one">
-                        <span class="badge rounded-pill yr">2018</span>
-                        <p></p>
+                <h4 id="Education" class="py-3 fw-bold" style="justify-content:center; align-items:center" >Education</h4>
+                <div class="d-flex justify-content-center">
+                    <div class="edu-one rounded box" style="width:30%">
+                        <div class="row">
+                            <div class="col-sm vline" style="color:#c3b3e3">b</div>
+                            <div class="col-sm"></div>
+                        </div>
+                        <div class="badge rounded-pill yr">Present</div>
+                        <p class="p-2 t-font">Christ (Deemed to be) University,Pune Lavasa Campus<br>
+                        M.Sc Data Science | Expected Graduation 2025<br>
+                        GPA : 3.9/4<br></p>
                     </div>
-                    <div class="col-sm edu edu-two">
-                        <span class="badge rounded-pill yr">2020</span>
-                        <p></p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="edu-two rounded box" style="width:30%">
+                        <div class="row">
+                            <div class="col-sm vline" style="color:#c3b3e3">b</div>
+                            <div class="col-sm"></div>
+                        </div>
+                        <div class="badge rounded-pill yr">2023</div>
+                        <p class="p-2 t-font">Madras Christian College,Chennai<br>
+                        B.Sc Mathematics<br>
+                        GPA: 8.9/10</p>
                     </div>
-                    <div class="col-sm edu edu-three">
-                        <span class="badge rounded-pill yr">2023</span>
-                        <p></p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class=" edu-three rounded box" style="width:30%">
+                        <div class="row">
+                            <div class="col-sm vline" style="color:#c3b3e3">b</div>
+                            <div class="col-sm"></div>
+                        </div>
+                        <div class="badge rounded-pill yr">2020</div>
+                        <p class="p-2 t-font">GEMS Our Own English High School,Al Ain,UAE</br>
+                        Grade 12 (CBSE): 94.4%<br>
+                        Grade 10 (CBSE): 94%</p>
                     </div>
                 </div>
             </div>
@@ -168,7 +198,7 @@
 
             <div style="background-color: #c3b3e3;" class="row shadow-sm content-1 gy-1">
 
-                <h4 id="Skills" class="py-3 fw-bold">My skills</h4>
+                <h4 id="Skills" class="py-3 fw-bold">Skills</h4>
                 <!-- first skills column -->
                 
                 <div class="col-sm-5 offset-sm-1">
@@ -227,83 +257,114 @@
                 <div class="row mt-3" >
                     <div class="col-sm">
                         <span class="material-symbols-outlined">communication</span>
-                        <p class="card-title">Communication</p>
+                        <p class="card-title t-font">Communication</p>
                     </div>
                     <div class="col-sm">
                         <span class="material-symbols-outlined">psychology</span>
-                        <p class="card-title">Critical Thinking</p>
+                        <p class="card-title t-font">Critical Thinking</p>
                     </div>
                     <div class="col-sm">
                         <span class="material-symbols-outlined">emoji_objects</span>
-                        <p class="card-title">Problem Solving</p>
+                        <p class="card-title t-font">Problem Solving</p>
                     </div>
                     <div class="col-sm">
-                        <span class="material-symbols-outlined">monitoring</span>
-                        <p class="card-title">Analytics</p>
+                        <span class="material-symbols-outlined">
+                            science
+                            </span>
+                        <p class="card-title t-font">Research</p>
                     </div>
                 </div>
             </div>
+            <div style="background-color: #c3b3e3;z-index:-1;" class="row p-3 row-cols-sm-2 g-3 offset-sm-1  content-1 ">
+                <div><h4 id="Projects" style="text-align: centre;z-index: -1;">Projects and Certifications</h4></div>
+                <div></div>
                 
-                    
-                
-           
+                <div class="col w-50" style="z-index:0">
+                    <div class="card align-items-center " style="background-color:#c1a9df;width:90%;height:100%">
+                        <img src="WhatsApp Image 2023-10-25 at 7.07.57 PM.jpeg"  style="background-color:#c1a9df;width:50%;height:90%" class="card-img-top rounded" alt="project group">
+                        <div class="card-body w-75" style="background-color: #c3b3e3;">
+                        <h5 class="card-title">Exploratory Data Analysis on Mental Health of Students in CUL</h5>                          
+                        <p class="card-text t-font">Data collected from a questionairre was used to analyse the mental health trends among students.<br>
+                             Tools used: Python Seaborn,Pandas & Matplotlib. Excel Pivot Tables,Slicers,Charts & Dashboard
+                            <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://github.com/jyosnaphilip/CAC-II-Group-4.git"> Click Here for Project Repository</a></p>
 
-            <div style="background-color: #c3b3e3;" class="row shadow-sm content-1 ">
-                <h4 id="Projects" style="text-align: right;">Projects</h4>
-                <div class="col-sm-1 mx-0"></div>
-                <div class="col-sm-4">
-                    <img src="">
-
+                        
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-7 mx-0">
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non
-                    proident, sunt in culpa qui of
+                <div class="col w-50">
+                    <div class="card align-items-center " style="background-color:#c1a9df;width:90%;height:100%">
+                        <img src="https://cdn.qwiklabs.com/owBxAmsLvhS0PMkf43htIcLhA1Xc4Y81yeTharot8vk%3D" class="card-img-top rounded" style="width:50%;height:60%" alt="Google Cloud Badge-1">
+                        <div class="card-body w-75">
+                          <h5 class="card-title align-center">
+                            </h5>
+                          <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.cloudskillsboost.google/public_profiles/ce79bf2a-7036-4de4-807a-fde1917af358/badges/6043152">See credentials</a></p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col w-50">
+                    <div class="card align-items-center " style="background-color:#c1a9df;width:90%;height:100%">
+                        <img src="https://cdn.qwiklabs.com/Tf3g6%2FADdDlj8rVzF5566QMe1GgJT8rlt%2BPKYMghTTM%3D" class="card-img-top" style="width:50%;height: 50%" alt="Google Cloud Badge-2">
+                        <div class="card-body">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://www.cloudskillsboost.google/public_profiles/ce79bf2a-7036-4de4-807a-fde1917af358/badges/5430546">See credentials</a></p>                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-grid-image">
+                        <div class="card-body">
+                          <h5 class="card-title">Number Guessing Game</h5>
+                          <p class="card-text t-font">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+            
+        </div>   <!--end container-->
+    </div>    <!--end scrollspy-->
 
 
 
 
-    <button type="button" class="msg px-3 py-1 rounded" data-bs-toggle="modal" data-bs-target="#Modal_box"
-        data-bs-whatever="@mdo"><p>Send a message</p></button>
+    
     <!-- message modal start-->
     <div class="modal fade" id="Modal_box" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header" style="background-color:#702670;">
+                <div class="modal-header shadow-lg" style="background-color:#702670;">
                     
                     <button type="button" class="btn-close btn-close-white"  data-bs-dismiss="modal" style="color:#fff" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="background-color:#c1a9df;">
                     <!-- form start -->
-                    <form name="form" onsubmit="return validateForm()" method="post" required>
+                    <form name="form" class="row g-3 needs-validation" action="action.php" onsubmit="return validateForm()" novalidate="">
                         <div class="mb-3 ">
-                            <label for="Name" class="form-label">Name</label>
-                            <input type="Name" class="form-control" id="Name" placeholder="Name">
+                            <label for="Name" class="form-label t-font">Name</label>
+                            <input type="text" class="form-control" id="Name" placeholder="Name" required="" autocomplete="on">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
                         </div>
                         <div class="mb-3">
-                            <label for="email_id" class="form-label">Email address</label>
-                            <input type="email" name="email" class="form-control" id="email_id"
-                                placeholder="name@example.com" required>
+                            <label for="email_id" class="form-label t-font">Email address</label>
+                            <input type="email" name="email" class="form-control" id="email_id" placeholder="name@example.com" required="" autocomplete="on">
+                                <div class="valid-feedback t-font">
+                                    Please provide a valid email.
+                                </div>
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                            <label for="message" class="form-label t-font">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required="" autocomplete="on"></textarea>
+                            <div class="invalid-feedback t-font">
+                                Please enter a message.
+                            </div>
                         </div>
                     </form>
                     <!-- form end -->
                 </div>
-                <div class="modal-footer submit">
-                    <button type="submit" id="submit" onclick="tick_mark()" class="btn p-1 rounded submit_btn text-light"
+                <div class="modal-footer shadow-lg submit">
+                    <button type="submit" id="submit" onclick="tick_mark()" class="btn p-1 rounded submit_btn text-light t-font"
                         style="font-weight:bold;" > Send
                         Message</button>
                 </div>
@@ -311,6 +372,30 @@
         </div>
     </div>
     <!-- message modal end -->
+    <!-- footer -->
+    <div class="container-fluid">
+        <div class="row" style="background-color: #301934;">
+            <div class="col-sm-5 pt-4 pe-4">
+                <button type="button" class="msg p-2 rounded-pill mt-5 t-font" data-bs-toggle="modal" data-bs-target="#Modal_box"
+            data-bs-whatever="@mdo" style="background-color: #c3b3e3;">Send a message</button>
+            </div>
+            
+            <div class="col-sm-5 offset-2 p-5  t-font">
+                <a href="www.linkedin.com/in/jyosna-philip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-linkedin-in "
+                    style="color: #ffffff;"><span class="t-font"> Connect on Linkedin</span></i><br>
+                <a href="https://github.com/jyosnaphilip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-github "
+                            style="color: #ffffff;"></i> Check out my GitHub profile</a><br>
+                <a href="mailto:jyosnaphilip@gmail.com" class="rounded-circle link-light link-underline-opacity-0"><i class="fa fa-envelope "></i> Send me a mail</a><br>
+                <a href="jyosna.philip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-stack-overflow "
+                            style="color: #ffffff;"></i> Check out my stackoverflow account</a><br>
+                <a href="https://www.instagram.com/jyosna.philip/" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-instagram "
+                            style="color: #ffffff;"></i> Follow me on instagram</a><br>
+
+            </div>
+            
+
+        </div>
+    </div>
 
     <!-- scrollspy settings end -->
 

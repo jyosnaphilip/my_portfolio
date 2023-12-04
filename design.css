@@ -32,26 +32,27 @@
     background-color: #702670;
 }
 
-p{
+.t-font{
     font-family: 'Prompt', sans-serif;
 }
 
 /* education design */
 
 .edu{
-    background-color:3c3b3e3;
+    background-color:#c3b3e3;
     border-radius:5px;
     padding: 3px;
-
+    width:50%;
 }
+
 .edu-one{
     border-top:5px dotted #301934;
     border-right:5px dotted #301934; 
     text-align:center;  
 }
 .edu-two{
-    border-bottom:5px dotted #301934;
-    border-right:5px dotted #301934; 
+    border-top:5px dotted #301934;
+    border-left:5px dotted #301934; 
     border-bottom-left-radius: 2px;   
 }   
 
@@ -62,9 +63,12 @@ p{
 
 .yr{
     background-color: #301934;
-    font-size:15px;
-    
-    
+    font-size:15px;   
+}
+
+.vline{
+    border-right:5px dotted #301934;
+
 }
 
 h4,.h {

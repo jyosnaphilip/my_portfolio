@@ -1,27 +1,25 @@
 function validateForm() {
-    var x = document.forms["form"]["email"].value;
-    if (x == "") {
-      alert("Email must be filled out");
-      return false;
-    }
-    else{
-        submit_val("submit");
-    }
-  }
-
-  function submit_val(tag){
-    tag.innerHTML= "<i class='fa fa-check tick' ></i>";
-    tag.removeAttribute("style");
+  var forms = document.querySelectorAll('.needs-validation')
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated')
+    }, false)
+  })
 }
 
-function scroll_header(){
-  window.scrollTo(0,550);
-}
 
 function tick_mark(){
   document.getElementById("submit").innerHTML="<i class='fa-solid fa-circle-check' style='color: #9bfda2;'></i>";
 }
 
+function scrollHome(){
+  window.scrollTo(0);
+}
 
 
 
@@ -53,5 +51,5 @@ function tick_mark(){
 
 
 
-//   }
-// }
+//
+
