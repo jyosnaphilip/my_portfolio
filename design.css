@@ -74,6 +74,7 @@
 h4,.h {
     font-family: Ubuntu, sans-serif;
     font-size: 32px;
+    font-weight:bold;
 }
 
 /* navbar design start */
@@ -178,7 +179,7 @@ h4,.h {
 
 
 .skill{
-    background-color:#301934;
+    background-color:#702670;
 
 }
 
