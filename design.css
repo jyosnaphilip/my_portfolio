@@ -6,11 +6,7 @@
 #banner{
     background-color:#301934;
     position:sticky;
-    transition: 0.2s;
-    
     margin:auto;
-
-     /* for collapsing header */
 }
 #name_pic{
     height:90%;
@@ -19,12 +15,24 @@
     margin-top: 5px; 
 }
 #pic{
+    margin-top: 10px;
     justify-self: center;
     align-self: center;
     width:60%;
     height:60%;
    
 }
+/* aboutme pic */
+#pic2{
+    margin-top: 19px;
+    justify-self: center;
+    align-self: center;
+    width:80%;
+    height:60%;
+   
+}
+
+/* download resume setting */
 .resume{
     background-color:#301934;
 }
@@ -32,9 +40,20 @@
     background-color: #702670;
 }
 
+/* font for all text */
+
 .t-font{
     font-family: 'Prompt', sans-serif;
 }
+
+/* font for all headings */
+
+h4,.h {
+    font-family: Ubuntu, sans-serif;
+    font-size: 32px;
+    font-weight:bold;
+}
+
 
 /* education design */
 
@@ -71,11 +90,7 @@
 
 }
 
-h4,.h {
-    font-family: Ubuntu, sans-serif;
-    font-size: 32px;
-    font-weight:bold;
-}
+
 
 /* navbar design start */
 .nav-style {
