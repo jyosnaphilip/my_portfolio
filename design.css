@@ -216,3 +216,7 @@ h4,.h {
 
 
 /* skills design ends */
+.form-control:focus {
+    border-color: #702670 ;
+    box-shadow: 0 0 0 0.2rem rgba(112, 38, 112, 0.25);
+} 
