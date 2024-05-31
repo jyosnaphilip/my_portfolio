@@ -75,19 +75,19 @@
                 <div class=".container-fluid  px-3">
                     <ul class="nav nav-pills">
                         <li class="nav-item nav-style px-3">
-                            <a href="#about" class="nav-link nav-style px-3 hoveffect rounded">About me</a>
+                            <a href="#ab" class="nav-link nav-style px-3 hoveffect rounded" style="pointer-events: none; cursor: default;">About me</a>
                         </li>
                         <li class="nav-item nav-style px-3">
-                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#Education">Education</a>
+                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#Edu" style="pointer-events: none; cursor: default;">Education</a>
                         </li>
                         <li class="nav-item nav-style px-3">
-                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#Skills">Skills</a>
+                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#ski" style="pointer-events: none; cursor: default;">Skills</a>
                         </li>
                         <li class="nav-item nav-style px-3">
-                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#Projects">Projects & Certifications</a>
+                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#Projects" style="pointer-events: none; cursor: default;">Projects & Certifications</a>
                         </li>
                         <li class="nav-item nav-style px-3 ">
-                            <a class="nav-link nav-style px-3 hoveffect rounded" href="blog.html">Blog</a>
+                            <a class="nav-link nav-style px-3 hoveffect rounded" href="blog.html"style="pointer-events: none; cursor: default;">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -120,13 +120,13 @@
                 <div class="row shadow-sm"  style="background-color:#c3b3e3;">
     <!-- about section -->
                     <div class="col-sm-7 p-4 offset-sm-1 text-light fw-light"  >
-                        <h4  class="py-5  fw-bold" style="color:#301934;"  id="about">About Me</h4>
+                        <h4  class="py-5  fw-bold" style="color:#301934;" id="ab"  >About Me</h4>
                         <div class="t-font" style="color:#301934;">
                             <p style="text-align: justify;">Hello there! I'm a Data Science enthusiast currently pursuing my studies at Christ University,
                             Lavasa, Pune.
                             Originating from Kerala, my academic journey has led me to different parts of the world,
                             shaping my diverse perspectives and approach to life.</p>
-                            <p style="text-align: justify;">I find joy in navigating the complexities of logic at the intersection of mathematics and
+                            <p style="text-align: justify;" id="about">I find joy in navigating the complexities of logic at the intersection of mathematics and
                             analytics.
                             My focus revolves around programming and any technology involving data,
                             showcased by the development of this portfolio as part of my Full Stack Web Development Course.
@@ -156,14 +156,14 @@
                 <div style="background-color: #c3b3e3;" id="Contact" class="row shadow-sm">
 
 
-                    <h4 id="Education" class="py-3 fw-bold" style="justify-content:center; align-items:center" >Education</h4>
-                    <div class="d-flex justify-content-center">
+                    <h4  class="py-3 fw-bold" style="justify-content:center; align-items:center" id="Edu" >Education</h4>
+                    <div class="d-flex justify-content-center" >
                         <div class="edu-one rounded box" style="width:30%">
                             <div class="row">
                                 <div class="col-sm vline" style="color:#c3b3e3">b</div>
                                 <div class="col-sm"></div>
                             </div>
-                            <div class="badge rounded-pill yr">Present</div>
+                            <div class="badge rounded-pill yr" >Present</div>
                             <p class="p-2 t-font">Christ (Deemed to be) University, Pune Lavasa Campus<br>
                             M.Sc Data Science | Expected Graduation 2025<br>
                             GPA : 3.9/4<br></p>
@@ -187,7 +187,7 @@
                                 <div class="col-sm vline" style="color:#c3b3e3">b</div>
                                 <div class="col-sm"></div>
                             </div>
-                            <div class="badge rounded-pill yr">2020</div>
+                            <div class="badge rounded-pill yr" id="Education">2020</div>
                             <p class="p-2 t-font">GEMS Our Own English High School, Al Ain, UAE</br>
                             Grade 12 (CBSE): 94.4%<br>
                             Grade 10 (CBSE): 94%</p>
@@ -200,7 +200,7 @@
 
                 <div style="background-color: #c3b3e3;" class="row content-1 gy-1">
 
-                    <h4 id="Skills" class="py-3 fw-bold">Skills</h4>
+                    <h4  class="py-3 fw-bold" id="ski">Skills</h4>
                     <!-- first skills column -->
                     
                     <div class="col-sm-5 offset-sm-1">
@@ -225,7 +225,7 @@
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div></br>
                         <p class="pt-1 fw-bold t-font">C</p>
-                        <div class="progress">
+                        <div class="progress" id="Skills">
                             <div class="progress-bar skill" role="progressbar" style="width: 60%" aria-valuenow="50"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -283,9 +283,71 @@
                     </div>
                 </div>
                 <!-- projects section -->
-                <div style="background-color: #c3b3e3;z-index:-1;border:none;" class="row pt-5 align-items-center offset-sm-1 mt-3 ">
-                    <div><h4 class="text-center" id="Projects" style="text-align: centre;z-index: -1;">Projects</h4></div>
-                    <div class="card me-5 shadow-lg " style="background-color:#c3b3e3;border:none;z-index:0;width:fit-content;">
+                <div style="background-color: #c3b3e3;z-index:-1;border:none;" class="row m-5 align-items-center offset-sm-1 mt-3 ">
+                    <div><h4 class="text-center"  style="text-align: centre;z-index: -1;">Projects</h4></div>
+                    <div class="accordion mx-6" id="accordionPanelsStayOpenExample" >
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" style="background-color:#702670; color: #fff;font-weight: 600;" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Exploratory Data Analysis on Mental Health of Students in CUL
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;"data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Python Banking Management System
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              HungryStudent - Django WebApp
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Environment data visualisation using Java
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Predictive Maintenance using Machine Learning
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    <!-- <div class="card me-5 shadow-lg " style="background-color:#c3b3e3;border:none;z-index:0;width:fit-content;">
                         <div class="row g-0 w-75 ">                 
                             <div class="col-sm-4 p-0">
                                 <img src="WhatsApp Image 2023-10-25 at 7.07.57 PM.jpeg" class="img-fluid img-thumbnail shadow-md w-75" >
@@ -305,7 +367,7 @@
                 
                     <div class="row p-5">
                         
-                        <div class="col-4">
+                        <div class="col-4" id="Projects">
                             <div class="card align-items-center shadow-lg " style="background-color:#c3b3e3;width:80%;height:fit-content;border:none;">
                                 <img src="images.jpeg" class="card-img-top " style="width:100%;height: 100%" alt="bank">
                                 <div class="card-body ">
@@ -338,8 +400,8 @@
                                 <div class="card-body ">
                                 
                                     <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://www.cloudskillsboost.google/public_profiles/ce79bf2a-7036-4de4-807a-fde1917af358/badges/5430546" target="_blank">See credentials</a></p>                        
-                                </div>
-                            </div>
+                                </div> -->
+                            <!-- </div> -->
                         </div> 
                         
 

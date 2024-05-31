@@ -32,9 +32,7 @@
 
 
 
-// function scroll_header(){
-//   window.scrollTo(0,300);
-// }
-
-
+function scroll_header(){
+  window.scrollTo(0,300);
+}
 
