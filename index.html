@@ -84,10 +84,10 @@
                             <a class="nav-link nav-style px-3 hoveffect rounded" href="#ski" style="pointer-events: none; cursor: default;">Skills</a>
                         </li>
                         <li class="nav-item nav-style px-3">
-                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#Projects" style="pointer-events: none; cursor: default;">Projects & Certifications</a>
+                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#projects" style="pointer-events: none; cursor: default;">Projects</a>
                         </li>
                         <li class="nav-item nav-style px-3 ">
-                            <a class="nav-link nav-style px-3 hoveffect rounded" href="blog.html"style="pointer-events: none; cursor: default;">Blog</a>
+                            <a class="nav-link nav-style px-3 hoveffect rounded" href="#blogs"style="pointer-events: none; cursor: default;">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -118,7 +118,7 @@
             <div class="container-fluid text-center mt-0" style="background-color:#c3b3e3;">
                 <!-- first row start -->
                 <div class="row shadow-sm"  style="background-color:#c3b3e3;">
-    <!-- about section -->
+                <!-- about section -->
                     <div class="col-sm-7 p-4 offset-sm-1 text-light fw-light"  >
                         <h4  class="py-5  fw-bold" style="color:#301934;" id="ab"  >About Me</h4>
                         <div class="t-font" style="color:#301934;">
@@ -148,7 +148,7 @@
                     <div class="col-sm-3 py-4 mx-0" style="align-items: center;justify-content: center;">
                         <img src="pic2.jpg" style="object-fit: cover;"class="rounded img-thumbnail" id="pic2">
                     </div>
-        <!-- end of about section -->
+                <!-- end of about section -->
                 </div>
                 <!-- end of first row -->
                 <!-- start of second row -->
@@ -284,159 +284,124 @@
                 </div>
                 <!-- projects section -->
                 <div style="background-color: #c3b3e3;z-index:-1;border:none;" class="row m-5 align-items-center offset-sm-1 mt-3 ">
-                    <div><h4 class="text-center"  style="text-align: centre;z-index: -1;">Projects</h4></div>
+                    <div id="projects"><h4 class="text-center"  style="text-align: centre;z-index: -1;">Projects</h4></div>
+                    <br>
                     <div class="accordion mx-6" id="accordionPanelsStayOpenExample" >
                         <div class="accordion-item">
                           <h2 class="accordion-header">
-                            <button class="accordion-button" style="background-color:#702670; color: #fff;font-weight: 600;" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="accordion-button" style="background-color:#702670;z-index:0; color: #fff;font-weight: 600;" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                 Exploratory Data Analysis on Mental Health of Students in CUL
                             </button>
                           </h2>
-                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                            <div class="accordion-body">
-                                <div class="row g-0 ">                 
-                                    <div class="col-sm-3 p-0">
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <div class="row g-0 ">                 
+                                        <div class="col-sm-3 p-0">
                                         <img src="WhatsApp Image 2023-10-25 at 7.07.57 PM.jpeg" class="img-fluid img-thumbnail shadow-md w-75" >
-                                    </div>
-                                    <div class="col-sm-5 align-self-centre">
-                                        <div class="card-body p-5" >
-                                        <p class="card-text align-self-centre" >Data collected from a questionairre was used to analyse the mental health trends among students.<br>
-                                           <strong> Tools used:</strong> Python Seaborn,Pandas & Matplotlib. Excel Pivot Tables,Slicers,Charts & Dashboard
-                                            
                                         </div>
-                                    </div>
-                                    <div class="col-sm-3 align-self-centre">
-                                        <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-underline-light-hover" style="color:#702670;font-weight:bold;" href="https://github.com/jyosnaphilip/CAC-II-Group-4.git" target="_blank"> Click Here for Project Repository</a></p>
-                                        <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-underline-light-hover" style="color:#702670;font-weight:bold;" href="cac 2 code.html" target="_blank">View in Jupyter Notebook</a></p>
-                                        <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-underline-light-hover" style="color:#702670;font-weight:bold;" href="" target="_blank"> View Insight Dashboard</a></p>
+                                        <div class="col-sm-5 align-self-centre">
+                                            <div class="card-body p-5" >
+                                            <p class="card-text align-self-centre" >Data collected from a questionairre was used to analyse the mental health trends among students.<br>
+                                            <strong> Tools used:</strong> Python Seaborn,Pandas & Matplotlib. Excel Pivot Tables,Slicers,Charts & Dashboard
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 align-self-centre">
+                                            <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-underline-light-hover" style="color:#702670;font-weight:bold;" href="https://github.com/jyosnaphilip/CAC-II-Group-4.git" target="_blank"> Click Here for Project Repository</a></p>
+                                            <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-underline-light-hover" style="color:#702670;font-weight:bold;" href="cac 2 code.html" target="_blank">View in Jupyter Notebook</a></p>
+                                            <!-- <br><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-underline-light-hover" style="color:#702670;font-weight:bold;" href="" target="_blank"> View Insight Dashboard</a></p> -->
 
-                                    </div>
-                                </div>              
+                                        </div>
+                                    </div>              
+                                </div>
                             </div>
-                          </div>
                         </div>
+ 
                         <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;"data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" style="background-color:#702670;z-index:0; color: #fff;font-weight: 600;"data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                 Python Banking Management System
                             </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row g-0 ">                 
-                                    <div class="col-sm-3 p-0">
-                                        <img src="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" class="img-fluid img-thumbnail shadow-md " >
-                                        <figcaption class="figure-caption">Photo by 
-                                            <a href="https://unsplash.com/@andretaissin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
-                                            style="color: #702670;">Andre Taissin</a> on 
-                                            <a href="https://unsplash.com/photos/pink-pig-coin-bank-on-brown-wooden-table-5OUMf1Mr5pU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                                             style="color: #702670;">Unsplash</a></a</figcaption>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="row g-0 ">                 
+                                        <div class="col-sm-3 p-0">
+                                            <img src="andre-taissin-5OUMf1Mr5pU-unsplash.jpg" class="img-fluid img-thumbnail shadow-md " >
+                                            <figcaption class="figure-caption">Photo by 
+                                                <a href="https://unsplash.com/@andretaissin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+                                                style="color: #702670;">Andre Taissin</a> on 
+                                                <a href="https://unsplash.com/photos/pink-pig-coin-bank-on-brown-wooden-table-5OUMf1Mr5pU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                                                style="color: #702670;">Unsplash</a></a</figcaption>
                                         </div>
-                                    <div class="col-sm-5 align-self-centre">
-                                        <div class="card-body p-5" >
-                                            <p class="card-text align-self-centre" >This project is a Python-based customer management system
-                                             that provides functionalities for creating new customer accounts, editing customer details, 
-                                            checking loan eligibility, and handling foreign exchange (forex) transactions. 
-                                            The system also includes an age analysis feature for customer demographics.<br>
-                                            <strong>Techniques used:</strong> Data Analysis, File I/O, User Interaction,
-                                            Data Validation,
-                                            Looping and Conditional Logic, 
-                                            Random Number Generation, 
-                                            String Manipulation
-                                            
-                                            
+                                        <div class="col-sm-5 align-self-centre">
+                                            <div class="card-body p-5" >
+                                                <p class="card-text align-self-centre" >This project is a Python-based customer management system
+                                                that provides functionalities for creating new customer accounts, editing customer details, 
+                                                checking loan eligibility, and handling foreign exchange (forex) transactions. 
+                                                The system also includes an age analysis feature for customer demographics.<br>
+                                                <strong>Techniques used:</strong> Data Analysis, File I/O, User Interaction,
+                                                Data Validation,
+                                                Looping and Conditional Logic, 
+                                                Random Number Generation, 
+                                                String Manipulation
+                                                
+                                                
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-3 align-self-centre">
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="https://github.com/jyosnaphilip/MDS-171-CAC-1-Group-5.git">Click here for project repository</a></p>    
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="banking management system.html">View in Jupyter Notebook</a></p>    
-    
-                                    </div>
-                                </div>                                  </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                              HungryStudent - Django WebApp for College Canteens
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row g-0 ">                 
-                                    <div class="col-sm-3 p-0">
-                                        <img src="eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg" class="img-fluid img-thumbnail shadow-md " >
-                                        <figcaption class="figure-caption">Photo by <a href="https://unsplash.com/@shootdelicious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
-                                            style="color: #702670;">Eiliv Aceron</a> on 
-                                            <a href="https://unsplash.com/photos/cooked-food-on-black-bowl-ZuIDLSz3XLg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                                             style="color: #702670;">Unsplash</a>
-                                        </figcaption>
+                                        <div class="col-sm-3 align-self-centre">
+                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="https://github.com/jyosnaphilip/MDS-171-CAC-1-Group-5.git">Click here for project repository</a></p>    
+                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="banking management system.html">View in Jupyter Notebook</a></p>    
+        
                                         </div>
-                                    <div class="col-sm-5 align-self-centre">
-                                        <div class="card-body p-5" >
-                                            <p class="card-text align-self-centre" >This project is a Python-based customer management system
-                                             that provides functionalities for creating new customer accounts, editing customer details, 
-                                            checking loan eligibility, and handling foreign exchange (forex) transactions. 
-                                            The system also includes an age analysis feature for customer demographics.<br>
-                                            <strong>Techniques used:</strong>Django, Full Stack Web Development, ER Diagram, Database Creation, Data Analysis
-                                            
-                                            
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3 align-self-centre">
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="https://github.com/jyosnaphilip/hungry-Student">Click here for project repository</a></p>    
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="">View ER Diagram</a></p>    
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="">See deployed version</a></p>    
-
-                                    </div>
-                                </div>                                
+                                    </div> 
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                              <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <button class="accordion-button collapsed" type="button" style="background-color:#702670;z-index:0; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                HungryStudent - Django WebApp for College Canteens
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="row g-0 ">                 
+                                        <div class="col-sm-3 p-0">
+                                            <img src="eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg" class="img-fluid img-thumbnail shadow-md " >
+                                            <figcaption class="figure-caption">Photo by <a href="https://unsplash.com/@shootdelicious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+                                                style="color: #702670;">Eiliv Aceron</a> on 
+                                                <a href="https://unsplash.com/photos/cooked-food-on-black-bowl-ZuIDLSz3XLg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                                                style="color: #702670;">Unsplash</a>
+                                            </figcaption>
+                                        </div>
+                                        <div class="col-sm-5 align-self-centre">
+                                            <div class="card-body p-5" >
+                                                <p class="card-text align-self-centre" >This project is a Python-based customer management system
+                                                that provides functionalities for creating new customer accounts, editing customer details, 
+                                                checking loan eligibility, and handling foreign exchange (forex) transactions. 
+                                                The system also includes an age analysis feature for customer demographics.<br>
+                                                <strong>Techniques used:</strong>Django, Full Stack Web Development, ER Diagram, Database Creation, Data Analysis
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 align-self-centre">
+                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="https://github.com/jyosnaphilip/hungry-Student">Click here for project repository</a></p>    
+                                            <!-- <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="">View ER Diagram</a></p>    
+                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;"target="_blank" href="">See deployed version</a></p>     -->
+
+                                        </div>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" style="background-color:#702670;z-index:0; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                 Environment data visualisation using Java
-                              </button>
+                                </button>
                             </h2>
                             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                              <div class="accordion-body">
-                                <div class="row g-0 ">                 
-                                    <div class="col-sm-3 p-0">
-                                        <img src="jason-mavrommatis-9HEY1URQIQY-unsplash.jpg" class="img-fluid img-thumbnail shadow-md" >
-                                        <figcaption class="figure-caption">Photo by <a href="https://unsplash.com/@jeisblack?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" style="color: #702670;">Jason Mavrommatis</a> on <a href="https://unsplash.com/photos/silhouette-of-wind-mill-during-golden-hour-9HEY1URQIQY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" style="color: #702670;">Unsplash</a></figcaption>
-                                    </div>
-                                    <div class="col-sm-5 align-self-centre">
-                                        <div class="card-body p-5" >
-                                        <p class="card-text align-self-centre" >Analyze the 2006-2021 trends of grid-connected 
-                                            renewable energy capacity in India through data visualization,emphasizing regional dynamics and growth
-                                             patterns of energy sources. The dataset obtained from the NDAP (National Data Analytics Portal) of India spans
-                                              from 2006 to 2021 and provides a 
-                                             comprehensive overview of grid-connected renewable energy capacity across various states.
-                                            <br>
-                                            <strong>Libraries used:</strong> JFreeCharts
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3 align-self-centre">
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://github.com/jyosnaphilip/data_visualisation_with_java" target="_blank">Click here for project repository</a></p>    
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://ndap.niti.gov.in/dataset/9208" target="_blank">View Dataset Source</a></p> 
-                                        <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View Documentation</a></p>    
-
-    
-                                    </div>
-                                </div>                                   </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed" type="button" style="background-color:#702670; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                Predictive Maintenance using Machine Learning
-                              </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
-                              <div class="accordion-body">
                                 <div class="accordion-body">
                                     <div class="row g-0 ">                 
                                         <div class="col-sm-3 p-0">
@@ -447,28 +412,65 @@
                                             <div class="card-body p-5" >
                                             <p class="card-text align-self-centre" >Analyze the 2006-2021 trends of grid-connected 
                                                 renewable energy capacity in India through data visualization,emphasizing regional dynamics and growth
-                                                 patterns of energy sources. The dataset obtained from the NDAP (National Data Analytics Portal) of India spans
-                                                  from 2006 to 2021 and provides a 
-                                                 comprehensive overview of grid-connected renewable energy capacity across various states.
+                                                patterns of energy sources. The dataset obtained from the NDAP (National Data Analytics Portal) of India spans
+                                                from 2006 to 2021 and provides a 
+                                                comprehensive overview of grid-connected renewable energy capacity across various states.
                                                 <br>
                                                 <strong>Libraries used:</strong> JFreeCharts
                                                 
                                             </div>
                                         </div>
                                         <div class="col-sm-3 align-self-centre">
-                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://github.com/sekhrianchal6/Predictive-Maintenance" target="_blank">Click here for project repository</a></p>    
-                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View Dataset Source</a></p> 
-                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View Documentation</a></p>
-                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View deployed model</a></p>
-  
-    
+                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://github.com/jyosnaphilip/data_visualisation_with_java" target="_blank">Click here for project repository</a></p>    
+                                            <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://ndap.niti.gov.in/dataset/9208" target="_blank">View Dataset Source</a></p> 
+                                            <!-- <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View Documentation</a></p>     -->
+
         
                                         </div>
-                                    </div>                                   </div>
-                                                   </div>
+                                    </div> 
+                                </div>
                             </div>
-                          </div>
-                      </div>
+                        </div>
+                            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" style="background-color:#702670;z-index:0; color: #fff;font-weight: 600;" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Predictive Maintenance using Machine Learning
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="accordion-body">
+                                        <div class="row g-0 ">                 
+                                            <div class="col-sm-3 p-0">
+                                                <img src="jason-mavrommatis-9HEY1URQIQY-unsplash.jpg" class="img-fluid img-thumbnail shadow-md" >
+                                                <figcaption class="figure-caption">Photo by <a href="https://unsplash.com/@jeisblack?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" style="color: #702670;">Jason Mavrommatis</a> on <a href="https://unsplash.com/photos/silhouette-of-wind-mill-during-golden-hour-9HEY1URQIQY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" style="color: #702670;">Unsplash</a></figcaption>
+                                            </div>
+                                            <div class="col-sm-5 align-self-centre">
+                                                <div class="card-body p-5" >
+                                                <p class="card-text align-self-centre" >As part of the 30-Days ML Challenge initiated by Data Scientist Meri N, 
+                                                    we created a machine learning model for Predictive Maintenance of machines.                                                      This approach enables timely maintenance actions, minimizing downtime and maximizing asset lifespan.
+                                                    This approach enables timely maintenance actions, minimizing downtime and maximizing asset lifespan.
+                                                    The dataset used was the C-MAPSS dataset from NASA.
+                                                    A number of ML Algorithms like Random Forests, XGBoost,Gradient Boosting, MLP,LSTM, and LSTM+CNN were explored.
+                                                    comprehensive overview of grid-connected renewable energy capacity across various states.
+                                                    <br>
+                                                    <strong>Libraries used:</strong> sklearn, XGBoost,Tensorflow
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 align-self-centre">
+                                                <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://github.com/sekhrianchal6/Predictive-Maintenance" target="_blank">Click here for project repository</a></p>    
+                                                <!-- <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View Dataset Source</a></p> 
+                                                <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View Documentation</a></p>
+                                                <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="" target="_blank">View deployed model</a></p> -->
+                                            </div>
+                                        </div>                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- <div class="card me-5 shadow-lg " style="background-color:#c3b3e3;border:none;z-index:0;width:fit-content;">
                         
                     </div>
@@ -489,8 +491,8 @@
 
                             </div>
                         </div> 
-                    </div>
-                    <div class="row p-5 ">
+                    </div>-->
+                    <!-- <div class="row p-5 ">
                         <h4 id="Certificates and Badges" class="py-3 fw-bold">Certifications and Badges</h4>
 
                         <div class="col-3 offset-3">
@@ -508,14 +510,14 @@
                                 <div class="card-body ">
                                 
                                     <p class="card-text"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="color:#702670;font-weight:bold;" href="https://www.cloudskillsboost.google/public_profiles/ce79bf2a-7036-4de4-807a-fde1917af358/badges/5430546" target="_blank">See credentials</a></p>                        
-                                </div> -->
-                            <!-- </div> -->
+                                </div> 
+                            </div>
                         </div> 
                         
 
                         
-                    </div>
-                    <div class="row">
+                    </div> -->
+                    <!-- <div class="row">
                         <div class="col-3 offset-1">
                             <div class="card align-items-center shadow-lg card-body" style="background-color:#c3b3e3;width:90%;border:none;">
                                 <div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="d53a79aa-3cc1-430c-a9ba-ad493b2c53a0" data-share-badge-host="https://www.credly.com"></div>
@@ -535,17 +537,17 @@
                         </div>
     
 
-                    </div>
-                    
-                        
+                    </div> -->
+                    <div style="background-color: #c3b3e3;z-index:0;border:none;" class="row align-items-center  mt-5 mx-1">
+                        <a role="button" id="blogs" href="https://medium.com/@jyosnaphilip123" class="btn btn-lg "target="_blank" style="background-color:#702670;z-index:-1; color: #fff;font-weight: 600;">View blogs</a>
+                    </div>  
                         
               
                 </div>
                 
                 
             </div>   <!--end container-->
-        <!-- </div>    end scrollspy -->
-
+        </div>  
 
 
 
@@ -605,20 +607,6 @@
         <div class="container-fluid text-center" style="background-color: #301934;">
             <button type="button" class="msg p-2 rounded-pill mt-5 mb-5 t-font " data-bs-toggle="modal" data-bs-target="#Modal_box"
             data-bs-whatever="@mdo" style="background-color: #c3b3e3;">Send a message</button>
-                
-                
-                <!-- <div class="col-sm-5 offset-2 p-5  t-font" style="text-align: justify;">
-
-                    <a href="www.linkedin.com/in/jyosna-philip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-linkedin-in "
-                        style="color: #ffffff;"><span class="t-font"> Connect on Linkedin</span></i><br>
-                    <a href="https://github.com/jyosnaphilip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-github "
-                                style="color: #ffffff;"></i> Check out my GitHub profile</a><br>
-                    <a href="mailto:jyosnaphilip@gmail.com" class="rounded-circle link-light link-underline-opacity-0"><i class="fa fa-envelope "></i> Send me a mail</a><br>
-                    <a href="jyosna.philip" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-stack-overflow "
-                                style="color: #ffffff;"></i>  Check out my stackoverflow account</a><br>
-                    <a href="https://www.instagram.com/jyosna.philip/" class="rounded-circle link-light link-underline-opacity-0"><i class="fa-brands fa-instagram "
-                                style="color: #ffffff;"></i>  Follow me on instagram</a><br>
-                </div> -->
             
         </div>
 
